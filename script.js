@@ -32,7 +32,7 @@ function playSequence() {
   textContainer.innerHTML = "";
   textContainer.style.opacity = 1;
 
-  music.volume = 0.00090; // música ambiente
+  music.volume = 0.00050; // música ambiente
   voice.volume = 0.17; // voz mais clara
 
   music.currentTime = 0;
@@ -123,4 +123,5 @@ function animateParticles() {
   requestAnimationFrame(animateParticles);
 }
 animateParticles();
+
 
